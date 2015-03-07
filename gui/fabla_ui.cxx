@@ -222,8 +222,8 @@ static void port_event(LV2UI_Handle handle,
                 
                 // set the "selectedPad" to the played note
                 
-                ui->select_pad(pad);
-                ui->adsr->setName( ui->padData[pad].name );
+                //ui->select_pad(pad);
+                //ui->adsr->setName( ui->padData[pad].name );
               }
               
             }
