@@ -610,7 +610,7 @@ run(LV2_Handle instance, uint32_t n_samples)
         {
           int* p = (int*)LV2_ATOM_BODY(padNum);
           int pad = *p;
-          noteOn( self, pad, 70, 0 );
+          noteOn( self, pad, 64, 0 );
         }
       }
       
